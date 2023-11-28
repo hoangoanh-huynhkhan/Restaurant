@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D7FF795C-444E-49DA-B40F-4A9626FCCF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{1B9BAC4E-CA1B-4FAD-A31A-90DB0AB2E105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{FBB2E232-6420-42FF-82C0-47AF8F3D64EF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7FF795C-444E-49DA-B40F-4A9626FCCF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FF795C-444E-49DA-B40F-4A9626FCCF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FF795C-444E-49DA-B40F-4A9626FCCF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FF795C-444E-49DA-B40F-4A9626FCCF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9BAC4E-CA1B-4FAD-A31A-90DB0AB2E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9BAC4E-CA1B-4FAD-A31A-90DB0AB2E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9BAC4E-CA1B-4FAD-A31A-90DB0AB2E105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9BAC4E-CA1B-4FAD-A31A-90DB0AB2E105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB2E232-6420-42FF-82C0-47AF8F3D64EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB2E232-6420-42FF-82C0-47AF8F3D64EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB2E232-6420-42FF-82C0-47AF8F3D64EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB2E232-6420-42FF-82C0-47AF8F3D64EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
