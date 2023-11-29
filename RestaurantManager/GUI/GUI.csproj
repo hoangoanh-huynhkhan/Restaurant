@@ -83,6 +83,9 @@
     <Compile Include="ModelsView\UserLogin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm__client.resx">
+      <DependentUpon>frm__client.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm__login.resx">
       <DependentUpon>frm__login.cs</DependentUpon>
     </EmbeddedResource>

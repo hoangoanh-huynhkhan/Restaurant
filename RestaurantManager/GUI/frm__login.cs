@@ -16,6 +16,7 @@ namespace GUI
     public partial class frm__login : Form
     {
         private List<Employer> employers;
+        private bool click = false;
         public frm__login()
         {
             InitializeComponent();
@@ -82,6 +83,38 @@ namespace GUI
             }catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void txt__password_TextChanged(object sender, EventArgs e)
+        {
+            if (txt__password.Text.Trim().Length > 0)
+            {
+                pic__showpassword.Visible = true;
+            }
+
+            if (txt__password.Text.Trim().Length == 0)
+            {
+                pic__showpassword.Visible = false;
+            }
+        }
+
+        private void pic__showpassword_Click(object sender, EventArgs e)
+        {
+            if (!click)
+            {
+                txt__password.PasswordChar = '\0';
+                pic__showpassword.Image = null;
+                pic__showpassword.Image = global::GUI.Properties.Resources.show;
+                click = true;
+            }
+            else
+            {
+                txt__password.PasswordChar = '*';
+                pic__showpassword.Image = null;
+                pic__showpassword.Image = global::GUI.Properties.Resources.hide;
+                click = false;
+
             }
         }
     }
