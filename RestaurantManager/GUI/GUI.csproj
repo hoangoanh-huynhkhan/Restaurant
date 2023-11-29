@@ -68,6 +68,7 @@
     <Compile Include="frm__login.Designer.cs">
       <DependentUpon>frm__login.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModelsView\UserLogin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm__login.resx">

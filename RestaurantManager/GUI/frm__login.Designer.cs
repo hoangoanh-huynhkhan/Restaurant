@@ -160,6 +160,7 @@ namespace GUI
             this.btn__login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn__login.TabIndex = 6;
             this.btn__login.TabStop = false;
+            this.btn__login.Click += new System.EventHandler(this.btn__login_Click);
             // 
             // pic__showpassword
             // 

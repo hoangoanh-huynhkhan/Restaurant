@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DAL.Models;
 using DAO;
+using GUI.ModelsView;
 
 namespace GUI
 {
@@ -35,6 +36,40 @@ namespace GUI
             }
         }
 
-        
+        private Employer GetLogin()
+        {
+            Employer acc = employers.FirstOrDefault(x => x.employer__id == txt__username.Text);
+            if(acc == null)
+            {
+                throw new Exception("Not foud account!");
+            }
+            else
+            {
+                if(acc.password == txt__password.Text)
+                {
+                    return acc;
+                }
+                else
+                {
+                    throw new Exception("Not foud account!");
+                }
+            }
+        }
+
+        private void btn__login_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Employer acc = GetLogin();
+                if (acc != null)
+                {
+                    UserLogin.Account = acc;
+
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
