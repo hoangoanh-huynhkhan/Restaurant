@@ -64,7 +64,20 @@ namespace GUI
                 if (acc != null)
                 {
                     UserLogin.Account = acc;
-
+                    this.Hide();
+                    switch (acc.role)
+                    {
+                        case 1:
+                            frm__admin admin = new frm__admin();
+                            admin.ShowDialog();
+                            break;
+                        case 0:
+                            frm__client client = new frm__client();
+                            client.ShowDialog();
+                            break;
+                        default:
+                            throw new Exception("Cann't often!");
+                    }
                 }
             }catch(Exception ex)
             {
