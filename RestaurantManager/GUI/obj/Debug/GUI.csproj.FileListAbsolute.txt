@@ -21,3 +21,4 @@ C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\De
 C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.frm__login.resources
 C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.frm__client.resources
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.UserControlModels.uc__order.resources

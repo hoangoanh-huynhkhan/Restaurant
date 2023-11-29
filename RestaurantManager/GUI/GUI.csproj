@@ -83,6 +83,12 @@
     <Compile Include="ModelsView\UserLogin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlModels\uc__order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlModels\uc__order.Designer.cs">
+      <DependentUpon>uc__order.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frm__client.resx">
       <DependentUpon>frm__client.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +105,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControlModels\uc__order.resx">
+      <DependentUpon>uc__order.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

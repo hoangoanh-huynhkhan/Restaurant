@@ -51,7 +51,7 @@ namespace GUI
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.guna2Panel1.BorderColor = System.Drawing.Color.Teal;
             this.guna2Panel1.BorderRadius = 15;
             this.guna2Panel1.BorderThickness = 5;
             this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox2);
