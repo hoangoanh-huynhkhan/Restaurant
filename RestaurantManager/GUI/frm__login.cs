@@ -7,14 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAL.Models;
+using DAO;
 
 namespace GUI
 {
     public partial class frm__login : Form
     {
+        private List<Employer> employers;
         public frm__login()
         {
             InitializeComponent();
+            this.Load += Frm__login_Load;
+        }
+
+        private void Frm__login_Load(object sender, EventArgs e)
+        {
+            employers = EmployerDAO.GetAll();
         }
 
         private void btn__close_Click(object sender, EventArgs e)
@@ -25,5 +34,7 @@ namespace GUI
                 Application.Exit();
             }
         }
+
+        
     }
 }
