@@ -7,3 +7,16 @@ C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\De
 C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.exe
 C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.pdb
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\DAL.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\DAO.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\EntityFramework.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\Guna.UI2.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\DAL.pdb
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\DAL.dll.config
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\DAO.pdb
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\DAO.dll.config
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\EntityFramework.xml
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.frm__login.resources
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\GUI\obj\Debug\GUI.csproj.CopyComplete

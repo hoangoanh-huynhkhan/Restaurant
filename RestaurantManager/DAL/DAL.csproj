@@ -50,7 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Bill.cs" />
     <Compile Include="Models\DBContext.cs" />
+    <Compile Include="Models\Employer.cs" />
+    <Compile Include="Models\Food.cs" />
+    <Compile Include="Models\FoodType.cs" />
+    <Compile Include="Models\Oder.cs" />
+    <Compile Include="Models\OderDetail.cs" />
+    <Compile Include="Models\Table.cs" />
+    <Compile Include="Models\TableLocal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

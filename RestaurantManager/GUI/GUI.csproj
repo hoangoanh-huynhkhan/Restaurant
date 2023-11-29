@@ -62,8 +62,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm__login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__login.Designer.cs">
+      <DependentUpon>frm__login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm__login.resx">
+      <DependentUpon>frm__login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -96,6 +106,39 @@
       <Project>{1b9bac4e-ca1b-4fad-a31a-90db0ab2e105}</Project>
       <Name>DAO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closed.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

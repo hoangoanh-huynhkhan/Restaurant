@@ -1,0 +1,15 @@
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\DAO.dll.config
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\DAO.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\DAO.pdb
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\DAL.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\EntityFramework.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\DAL.pdb
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\DAL.dll.config
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\EntityFramework.xml
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\obj\Debug\DAO.dll
+C:\Users\huynh\Desktop\ProjectRestaurant\Restaurant\RestaurantManager\DAO\obj\Debug\DAO.pdb
